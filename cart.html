@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Review your FOOTYHUB cart.">
+    <title>Cart | FOOTYHUB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="h.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">FOOTY<span>HUB</span></a>
+            <div class="nav-links" id="nav-links"><a href="index.html">Home</a><a href="jerseys.html">Jerseys</a><a href="boots.html">Boots</a><a href="accessories.html">Accessories</a><a href="sale.html">Sale</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+            <div class="nav-actions">
+                <a href="cart.html" class="cart-icon" aria-label="Cart">
+                    <svg viewBox="0 0 24 24"><path d="M6 6h15l-1.5 9h-12z"></path><path d="M6 6 5 3H2"></path><circle cx="9" cy="20" r="1.5"></circle><circle cx="18" cy="20" r="1.5"></circle></svg>
+                    <span class="cart-count"></span>
+                </a>
+                <button class="menu-btn" aria-label="Toggle menu" aria-controls="nav-links">☰</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="page-banner">
+            <span class="eyebrow">ALMOST MATCHDAY</span>
+            <h1>YOUR <span>CART.</span></h1>
+            <p>Check your kit before you go to checkout.</p>
+            <div class="breadcrumb"><a href="index.html">Home</a><i>/</i>Cart</div>
+        </section>
+        <section class="wrap">
+            <div class="cart-wrap" id="cart-layout" hidden>
+                <div class="cart-items" id="cart-items"></div>
+                <aside class="cart-summary">
+                    <h3>Order summary</h3>
+                    <div class="summary-row"><span>Subtotal</span><span id="sum-sub"></span></div>
+                    <div class="summary-row"><span>Promo discount</span><span id="sum-off"></span></div>
+                    <div class="summary-row"><span>Shipping</span><span id="sum-ship"></span></div>
+                    <div class="summary-row total"><span>Total</span><span id="sum-total"></span></div>
+                    <p class="note" id="ship-note"></p>
+                    <form class="promo-row" id="promo-form">
+                        <label for="promo" class="sr-only">Promo code</label>
+                        <input type="text" id="promo" placeholder="Promo code (try FOOTY10)">
+                        <button type="submit">APPLY</button>
+                    </form>
+                    <p class="note" id="promo-note"></p>
+                    <a href="checkout.html" class="btn btn-primary">PROCEED TO CHECKOUT</a>
+                </aside>
+            </div>
+            <div class="cart-empty" id="cart-empty" hidden>
+                <h3>Your cart is empty</h3>
+                <p>Add a jersey or a pair of boots and it will show up here.</p>
+                <a href="jerseys.html" class="btn btn-primary">SHOP JERSEYS</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">FOOTY<span>HUB</span></a>
+                <p>Football merchandise for every fan. Built for those who live and breathe the game.</p>
+            </div>
+            <div class="footer-column"><h4>SHOP</h4><a href="jerseys.html">Jerseys</a><a href="boots.html">Boots</a><a href="accessories.html">Accessories</a><a href="sale.html">Sale</a></div>
+            <div class="footer-column"><h4>ORDERS</h4><a href="cart.html">Cart</a><a href="checkout.html">Checkout</a></div>
+            <div class="footer-column"><h4>COMPANY</h4><a href="about.html">Our story</a><a href="contact.html">Contact us</a></div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 FOOTYHUB. ALL RIGHTS RESERVED.</p><p>MADE FOR THE LOVE OF FOOTBALL ⚽</p></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

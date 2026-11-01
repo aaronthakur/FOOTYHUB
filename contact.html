@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with the FOOTYHUB team.">
+    <title>Contact | FOOTYHUB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="h.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">FOOTY<span>HUB</span></a>
+            <div class="nav-links" id="nav-links"><a href="index.html">Home</a><a href="jerseys.html">Jerseys</a><a href="boots.html">Boots</a><a href="accessories.html">Accessories</a><a href="sale.html">Sale</a><a href="about.html">About</a><a href="contact.html" class="active">Contact</a></div>
+            <div class="nav-actions">
+                <a href="cart.html" class="cart-icon" aria-label="Cart">
+                    <svg viewBox="0 0 24 24"><path d="M6 6h15l-1.5 9h-12z"></path><path d="M6 6 5 3H2"></path><circle cx="9" cy="20" r="1.5"></circle><circle cx="18" cy="20" r="1.5"></circle></svg>
+                    <span class="cart-count"></span>
+                </a>
+                <button class="menu-btn" aria-label="Toggle menu" aria-controls="nav-links">☰</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="page-banner">
+            <span class="eyebrow">WE'RE HERE TO HELP</span>
+            <h1>GET IN <span>TOUCH.</span></h1>
+            <p>Questions about sizing, an order, or a bulk kit for your team? Send us a message and we'll get back within one business day.</p>
+            <div class="breadcrumb"><a href="index.html">Home</a><i>/</i>Contact</div>
+        </section>
+        <section class="wrap contact-wrap">
+            <div class="contact-info">
+                <h2>Talk to the team</h2>
+                <p>Prefer to reach out directly? Use the details below. Our support desk is staffed Monday to Saturday.</p>
+                <div class="contact-detail"><h4>EMAIL</h4><p>support@footyhub.mudit</p></div>
+                <div class="contact-detail"><h4>PHONE</h4><p>+91 9899730258</p></div>
+                <div class="contact-detail"><h4>WAREHOUSE</h4><p>Plot 14, Industrial Area, Gurugram, Haryana</p></div>
+                <div class="contact-detail"><h4>HOURS</h4><p>Mon – Sat, 10:00 AM – 7:00 PM</p></div>
+            </div>
+            <form class="contact-form" data-endpoint="contact" data-success="Thanks! We’ll get back to you within one business day.">
+                <div class="form-row">
+                    <div class="form-group"><label for="fname">First name</label><input type="text" id="fname" name="firstName" placeholder="Arjun" required minlength="2" data-msg="Enter your first name."></div>
+                    <div class="form-group"><label for="lname">Last name</label><input type="text" id="lname" name="lastName" placeholder="Sharma" required></div>
+                </div>
+                <div class="form-group"><label for="cemail">Email address</label><input type="email" id="cemail" name="email" placeholder="you@example.com" required data-msg="Enter a valid email, like you@example.com."></div>
+                <div class="form-group">
+                    <label for="topic">Topic</label>
+                    <select id="topic" name="topic" required data-required="Please choose a topic.">
+                        <option value="">Select a topic</option>
+                        <option>Order enquiry</option>
+                        <option>Sizing help</option>
+                        <option>Returns</option>
+                        <option>Bulk order</option>
+                    </select>
+                </div>
+                <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us how we can help." required minlength="10" data-msg="Please write at least 10 characters."></textarea></div>
+                <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                <p class="form-status" role="status"></p>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">FOOTY<span>HUB</span></a>
+                <p>Football merchandise for every fan. Built for those who live and breathe the game.</p>
+            </div>
+            <div class="footer-column"><h4>SHOP</h4><a href="jerseys.html">Jerseys</a><a href="boots.html">Boots</a><a href="accessories.html">Accessories</a><a href="sale.html">Sale</a></div>
+            <div class="footer-column"><h4>ORDERS</h4><a href="cart.html">Cart</a><a href="checkout.html">Checkout</a></div>
+            <div class="footer-column"><h4>COMPANY</h4><a href="about.html">Our story</a><a href="contact.html">Contact us</a></div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 FOOTYHUB. ALL RIGHTS RESERVED.</p><p>MADE FOR THE LOVE OF FOOTBALL ⚽</p></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
