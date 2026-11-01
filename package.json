@@ -1,0 +1,8 @@
+{
+  "name": "footyhub",
+  "version": "1.0.0",
+  "description": "FOOTYHUB football store with form submission saved to local JSON files",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=16" }
+}

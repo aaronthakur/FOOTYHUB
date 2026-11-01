@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FOOTYHUB - Premium football jerseys, boots and accessories for every football fan.">
+    <title>FOOTYHUB | Play With Passion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="h.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">FOOTY<span>HUB</span></a>
+            <div class="nav-links" id="nav-links"><a href="index.html" class="active">Home</a><a href="jerseys.html">Jerseys</a><a href="boots.html">Boots</a><a href="accessories.html">Accessories</a><a href="sale.html">Sale</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+            <div class="nav-actions">
+                <a href="cart.html" class="cart-icon" aria-label="Cart">
+                    <svg viewBox="0 0 24 24"><path d="M6 6h15l-1.5 9h-12z"></path><path d="M6 6 5 3H2"></path><circle cx="9" cy="20" r="1.5"></circle><circle cx="18" cy="20" r="1.5"></circle></svg>
+                    <span class="cart-count"></span>
+                </a>
+                <button class="menu-btn" aria-label="Toggle menu" aria-controls="nav-links">☰</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <span class="hero-tag">THE GAME STARTS HERE</span>
+                <h1>PLAY WITH <span>PASSION.</span></h1>
+                <p>Premium football jerseys, boots and accessories built for players and fans who live the game.</p>
+                <div class="hero-buttons">
+                    <a href="jerseys.html" class="btn btn-primary">SHOP NOW</a>
+                    <a href="#categories" class="btn btn-outline">EXPLORE COLLECTION</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="trust-bar">
+            <div class="trust-item"><h4>PREMIUM QUALITY</h4><p>Official quality products</p></div>
+            <div class="trust-item"><h4>FAST DELIVERY</h4><p>Quick shipping across India</p></div>
+            <div class="trust-item"><h4>SECURE PAYMENT</h4><p>100% secure checkout</p></div>
+            <div class="trust-item"><h4>EASY RETURNS</h4><p>Simple return policy</p></div>
+        </section>
+
+        <section class="wrap" id="categories">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">EXPLORE THE COLLECTION</span>
+                    <h2>SHOP BY <span>CATEGORY</span></h2>
+                </div>
+            </div>
+            <div class="category-grid">
+                <a href="jerseys.html" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=900&q=80" alt="Football jersey" loading="lazy">
+                    <div><h3>Jerseys</h3><p>Wear your colours with pride.</p></div>
+                </a>
+                <a href="boots.html" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=900&q=80" alt="Football boots" loading="lazy">
+                    <div><h3>Boots</h3><p>Engineered for your next move.</p></div>
+                </a>
+                <a href="accessories.html" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1553778263-73a83bab9b0c?auto=format&fit=crop&w=900&q=80" alt="Football accessories" loading="lazy">
+                    <div><h3>Accessories</h3><p>Complete your matchday kit.</p></div>
+                </a>
+            </div>
+        </section>
+
+        <section class="wrap" id="products" style="padding-top:0">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">OUR BEST SELLERS</span>
+                    <h2>FEATURED <span>PRODUCTS</span></h2>
+                </div>
+                <a href="jerseys.html" class="view-all">VIEW JERSEYS →</a>
+            </div>
+            <div class="product-grid" data-products="featured"></div>
+        </section>
+
+        <section class="clubs">
+            <div class="wrap">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">REPRESENT YOUR CLUB</span>
+                        <h2>SHOP BY <span>CLUB</span></h2>
+                    </div>
+                </div>
+                <div class="club-grid">
+                    <a href="jerseys.html?club=real-madrid" class="club-card">Real Madrid</a>
+                    <a href="jerseys.html?club=barcelona" class="club-card">Barcelona</a>
+                    <a href="jerseys.html?club=man-city" class="club-card">Manchester City</a>
+                    <a href="jerseys.html?club=liverpool" class="club-card">Liverpool</a>
+                    <a href="jerseys.html?club=bayern" class="club-card">Bayern Munich</a>
+                    <a href="jerseys.html?club=psg" class="club-card">PSG</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="sale">
+            <div class="sale-content">
+                <span class="eyebrow" style="color:rgba(255,255,255,.85)">LIMITED TIME OFFER</span>
+                <h2>KICK OFF THE SAVINGS.</h2>
+                <p>Get up to 30% off selected football essentials. Don't miss the final whistle.</p>
+                <a href="sale.html" class="btn sale-btn">SHOP THE SALE</a>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <span class="eyebrow">STAY IN THE GAME</span>
+                <h2>JOIN THE <span>FOOTYHUB</span> COMMUNITY</h2>
+                <p>Get exclusive drops, football news and special offers delivered straight to your inbox.</p>
+                <form class="newsletter-form" data-endpoint="newsletter" data-success="You’re subscribed. Welcome to the club!">
+                    <div class="form-group">
+                        <label for="email" class="sr-only">Email address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required data-msg="Enter a valid email, like you@example.com.">
+                    </div>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <p class="form-status" role="status"></p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">FOOTY<span>HUB</span></a>
+                <p>Football merchandise for every fan. Built for those who live and breathe the game.</p>
+            </div>
+            <div class="footer-column"><h4>SHOP</h4><a href="jerseys.html">Jerseys</a><a href="boots.html">Boots</a><a href="accessories.html">Accessories</a><a href="sale.html">Sale</a></div>
+            <div class="footer-column"><h4>ORDERS</h4><a href="cart.html">Cart</a><a href="checkout.html">Checkout</a></div>
+            <div class="footer-column"><h4>COMPANY</h4><a href="about.html">Our story</a><a href="contact.html">Contact us</a></div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 FOOTYHUB. ALL RIGHTS RESERVED.</p><p>MADE FOR THE LOVE OF FOOTBALL ⚽</p></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
