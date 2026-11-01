@@ -1,0 +1,33 @@
+[
+  {
+    "orderId": "FH1001",
+    "submittedAt": "2026-11-01T18:19:22.434Z",
+    "customer": {
+      "name": "Aarom",
+      "email": "aaronthakur03@gmail.com",
+      "phone": "9627517067",
+      "address": "Bml Munjal",
+      "city": "Bhiwadi",
+      "pin": "122413"
+    },
+    "payment": {
+      "method": "cod"
+    },
+    "items": [
+      {
+        "id": "rm-home",
+        "name": "Real Madrid Home Jersey",
+        "size": "XXL",
+        "qty": 1,
+        "price": 2499
+      }
+    ],
+    "totals": {
+      "subtotal": 2499,
+      "discount": 0,
+      "shipping": 99,
+      "total": 2598
+    },
+    "promo": null
+  }
+]
