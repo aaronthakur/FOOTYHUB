@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The story behind FOOTYHUB, built by fans for fans.">
+    <title>About | FOOTYHUB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="h.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">FOOTY<span>HUB</span></a>
+            <div class="nav-links" id="nav-links"><a href="index.html">Home</a><a href="jerseys.html">Jerseys</a><a href="boots.html">Boots</a><a href="accessories.html">Accessories</a><a href="sale.html">Sale</a><a href="about.html" class="active">About</a><a href="contact.html">Contact</a></div>
+            <div class="nav-actions">
+                <a href="cart.html" class="cart-icon" aria-label="Cart">
+                    <svg viewBox="0 0 24 24"><path d="M6 6h15l-1.5 9h-12z"></path><path d="M6 6 5 3H2"></path><circle cx="9" cy="20" r="1.5"></circle><circle cx="18" cy="20" r="1.5"></circle></svg>
+                    <span class="cart-count"></span>
+                </a>
+                <button class="menu-btn" aria-label="Toggle menu" aria-controls="nav-links">☰</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="page-banner">
+            <span class="eyebrow">OUR STORY</span>
+            <h1>BUILT BY FANS, <span>FOR FANS.</span></h1>
+            <p>FOOTYHUB started on a five-a-side pitch and grew into a home for players and supporters who take their football seriously.</p>
+            <div class="breadcrumb"><a href="index.html">Home</a><i>/</i>About</div>
+        </section>
+        <section class="wrap about-story">
+            <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=900&q=80" alt="Players training on a football pitch" loading="lazy">
+            <div>
+                <span class="eyebrow">HOW IT STARTED</span>
+                <h2>FROM A KIT BAG TO A <span>FULL-TIME OBSESSION</span></h2>
+                <p>FOOTYHUB began in 2019 when three friends got tired of paying markup for imported jerseys that never fit right. We started sourcing directly, testing every boot ourselves, and selling to the five-a-side league we played in on weekends.</p>
+                <p>Word spread fast. Today we ship match-day kits, training gear, and club merchandise to fans across the country, but the standard hasn't changed: if we wouldn't wear it on the pitch, we don't sell it.</p>
+                <a href="jerseys.html" class="btn btn-primary">SHOP THE RANGE</a>
+            </div>
+        </section>
+
+        <div class="wrap stat-row" style="padding-top:0">
+            <div class="stat-card"><strong>60K+</strong><span>JERSEYS SHIPPED</span></div>
+            <div class="stat-card"><strong>120+</strong><span>CLUBS &amp; NATIONAL TEAMS STOCKED</span></div>
+            <div class="stat-card"><strong>4.8/5</strong><span>AVERAGE CUSTOMER RATING</span></div>
+        </div>
+
+        <section class="values">
+            <div class="wrap">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">WHAT WE STAND FOR</span>
+                        <h2>OUR <span>VALUES</span></h2>
+                    </div>
+                </div>
+                <div class="values-inner">
+                    <div class="value-card"><h3>Authentic Quality</h3><p>Every jersey and boot is checked against official specs before it reaches your door. No knockoffs, no shortcuts.</p></div>
+                    <div class="value-card"><h3>Player-Tested</h3><p>Our team plays weekly. If a product doesn't hold up on our own pitch, it doesn't go on the shelf.</p></div>
+                    <div class="value-card"><h3>Fair Pricing</h3><p>We cut out middlemen and pass the savings on, so supporting your club doesn't mean overpaying for it.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <span class="eyebrow">STAY IN THE GAME</span>
+                <h2>JOIN THE <span>FOOTYHUB</span> COMMUNITY</h2>
+                <p>Get exclusive drops, football news and special offers delivered straight to your inbox.</p>
+                <form class="newsletter-form" data-endpoint="newsletter" data-success="You’re subscribed. Welcome to the club!">
+                    <div class="form-group">
+                        <label for="email" class="sr-only">Email address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required data-msg="Enter a valid email, like you@example.com.">
+                    </div>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <p class="form-status" role="status"></p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">FOOTY<span>HUB</span></a>
+                <p>Football merchandise for every fan. Built for those who live and breathe the game.</p>
+            </div>
+            <div class="footer-column"><h4>SHOP</h4><a href="jerseys.html">Jerseys</a><a href="boots.html">Boots</a><a href="accessories.html">Accessories</a><a href="sale.html">Sale</a></div>
+            <div class="footer-column"><h4>ORDERS</h4><a href="cart.html">Cart</a><a href="checkout.html">Checkout</a></div>
+            <div class="footer-column"><h4>COMPANY</h4><a href="about.html">Our story</a><a href="contact.html">Contact us</a></div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 FOOTYHUB. ALL RIGHTS RESERVED.</p><p>MADE FOR THE LOVE OF FOOTBALL ⚽</p></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
